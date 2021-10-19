@@ -10,15 +10,12 @@ def get_range():
         try:
             range = int(range)
             return range
-        
+
         except:
             print("Invalid input, please try again.")
+
 
 def is_happy(number):
     iterations = 0
 
     while (number != 0) and (iterations < 1000):
-        
-
-
-

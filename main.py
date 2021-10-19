@@ -16,6 +16,7 @@ def get_number():
             print("Invalid input, please try again.")
             print(spacer)
             print("Do you want to exit to the main menu?")
+            print("")
             print("1 = Exit to main menu.")
             print("2 = Try again.")
 
